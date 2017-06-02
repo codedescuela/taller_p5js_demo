@@ -630,6 +630,28 @@
       </section>
       <section>
         <p>
+          <h6 style="text-align:left;">Videos en p5.js</h6>
+        </p>
+        <pre>
+          <code class="hljs" data-trim contenteditable>
+            var video;
+
+            function setup() {
+              createCanvas(800, 500);
+              video = createCapture(VIDEO);
+              video.hide();
+            }
+
+            function draw() {
+              tint(100,210,100);
+              image(video);
+            }
+
+          </code>
+        </pre>
+      </section>
+      <section>
+        <p>
           <h2>¡a experimentar!</h2>
         </p>
       </section>
